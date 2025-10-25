@@ -2,7 +2,6 @@
 ## A WhatsApp Crashing Tool For Termux Users
 
 
-![logo](https://github.com/Professorwired/whattsappcrasher/blob/main/20210924_150712.jpg)
 
 <p align="center">
   
@@ -14,6 +13,9 @@
 
 ```
 apt update && apt upgrade -y
+```
+```
+pip install colorama
 ```
 ```
 pkg install python3
@@ -38,12 +40,6 @@ Go to the wa2 Directoy by type `cd wa2` and then type
 ```
 python3 d.py
 ```
-
-## Screenshots :
-
-
-![logo](https://github.com/Professorwired/whattsappcrasher/blob/main/20210924_182617.gif)
-
 
 #
 </p>
