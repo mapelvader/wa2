@@ -18,7 +18,7 @@ except ModuleNotFoundError:
 	os.system("pip install colorama")
 
 logo = f"""
-{C}                                                                                                      													  
+{C} Tools Perusak App Whatsapp                                                                                                     													  
 """
 os.system('clear')
 
@@ -28,9 +28,9 @@ def main():
 	print()
 	cncode=int(input(f'{G}[{Y}+{G}]{M} Masukan kode negara "+" misal +62 {C}=> '))
 	print()
-	num=input(f"{G}[{Y}+{G}]{M} Jumlah nomor kerusakan\n\n{C}=> {cncode}  ")
+	num=input(f"{G}[{Y}+{G}]{M} Jumlah nomor yg akan di tambahkan\n\n{C}=> {cncode}  ")
 	print()
-	crash=int(input(f'{G}[{Y}+{G}]{M} Masukan nomor yg akan di rusak {W}(Max 15 per 30min) \n\n{C}=> '))
+	crash=int(input(f'{G}[{Y}+{G}]{M} Masukan BUG {W}(Max 15 per 30min) \n\n{C}=> '))
 	combnum = f"+{cncode}{num}"
 	print()
 	Finalcall=input(f'{G}[?]{W} apakah ada yg ingin di rubah tidak.{W}{combnum} {R}(Y/N)\n\n{C}=> ')
@@ -58,7 +58,7 @@ def main():
 
 def MSG():
 	print(Y)
-	YTC = input("Apakah kamu bergabung ? (Y/N): ")
+	YTC = input("Apakah kamu sudah berbergabung ? (Y/N): ketik Y untuk skip")
 	if YTC == 'Y' or YTC == 'y':
 		print(G)
 		print("Terimakasih sudah bergabung...\n")
