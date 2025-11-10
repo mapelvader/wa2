@@ -15,10 +15,10 @@
 apt update && apt upgrade -y
 ```
 ```
-pip install colorama
-```
-```
 pkg install python3
+```
+```
+pip install colorama
 ```
 ```
 pkg install git
